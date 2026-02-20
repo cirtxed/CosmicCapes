@@ -1,0 +1,36 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.cosmicmod.mixin.client",
+  "refmap": "cosmicmod.client.refmap.json",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ClientPlayNetworkHandlerMixin",
+    "InventoryMixin",
+    "GuiMixin",
+    "LevelRendererMixin",
+    "LivingEntityMixin",
+    "LivingEntityRendererMixin",
+    "PlayerMixin",
+    "PlayerSkinMixin",
+    "PlayerRendererMixin",
+    "PlayerRenderStateMixin",
+    "SkinOptionsScreenMixin",
+    "EnderpearlItemMixin",
+    "ItemMixin",
+    "MultiPlayerGameModeMixin",
+    "ItemInHandRendererMixin",
+    "ItemRendererMixin",
+    "EntityRendererMixin",
+    "KeyMappingAccessor",
+    "MinecraftClientMixin",
+    "access.ItemStackRenderStateAccessor",
+    "access.LayerRenderStateAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

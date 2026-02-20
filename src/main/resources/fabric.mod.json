@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "cosmicmod",
+  "version": "${version}",
+
+  "name": "CosmicMod",
+  "description": "Quality-of-life mod for CosmicSky and CosmicPrisons.",
+  "authors": ["CosmicMod Team"],
+  "contact": {
+    "homepage": "https://cosmicsky.com"
+  },
+
+  "license": "All-Rights-Reserved",
+  "icon": "assets/cosmicmod/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": ["dev.cosmicmod.client.CosmicmodDataGenerator"],
+    "client": ["dev.cosmicmod.client.CosmicmodClient"],
+    "modmenu": ["dev.cosmicmod.client.ModMenuIntegration"]
+  },
+
+  "mixins": [
+    {
+      "config": "cosmicmod.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
