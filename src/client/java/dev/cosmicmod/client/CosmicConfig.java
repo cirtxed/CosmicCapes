@@ -88,7 +88,7 @@ public class CosmicConfig {
     public boolean chatFilterEnabled = true;
     public boolean allowMiningWhileRightClicking = false;
     public Map<String, String> itemTextureOverrides = new HashMap<>();
-    public String capeGithubUrl = "";
+    public String capeGithubUrl = "https://raw.githubusercontent.com/cirtxed/CosmicCapes/main/github_capes/capes.txt";
     public long casinoCoins = 1000;
     public Map<String, Integer> itemTintOverrides = new HashMap<>();
     public Map<String, Integer> stackTintOverrides = new HashMap<>();
