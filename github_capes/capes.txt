@@ -1,0 +1,6 @@
+# Format: uuid:cape_url
+# You should upload mojang.png to your github and replace the URL below
+# For example: https://raw.githubusercontent.com/username/repo/main/mojang.png
+
+dce48f53-8c32-469f-b7fb-dc11e612d0f7:https://raw.githubusercontent.com/username/repo/main/github_capes/mojang.png
+09a8c489-1fb9-4617-a2bf-16adad508254:https://raw.githubusercontent.com/username/repo/main/github_capes/mojang.png
