@@ -6,6 +6,10 @@
 # Existing capes (legacy format supported: uuid:url)
 dce48f53-8c32-469f-b7fb-dc11e612d0f7:https://raw.githubusercontent.com/cirtxed/CosmicCapes/main/github_capes/mojang.png
 09a8c489-1fb9-4617-a2bf-16adad508254:https://raw.githubusercontent.com/cirtxed/CosmicCapes/main/github_capes/mojang.png
+013de740-46e8-470d-ad99-6e7025631666:https://raw.githubusercontent.com/cirtxed/CosmicCapes/main/github_capes/SkinMC-Cape-4840.png
+
+# Player Aura
+aura:013de740-46e8-470d-ad99-6e7025631666:cosmicmod:money_bag
 
 # Example Aura
 # aura:dce48f53-8c32-469f-b7fb-dc11e612d0f7:minecraft:flame

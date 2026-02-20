@@ -110,14 +110,6 @@ public class CosmicmodClientCommands {
                         context.getSource().sendFeedback(Component.literal("§aRefreshing cosmetics from GitHub..."));
                         return 1;
                     }))
-                    .then(ClientCommandManager.literal("seturl").then(ClientCommandManager.argument("url", StringArgumentType.string()).executes(context -> {
-                        String url = StringArgumentType.getString(context, "url");
-                        CosmicConfig.getInstance().capeGithubUrl = url;
-                        CosmicConfig.save();
-                        CosmeticManager.refreshCosmetics();
-                        context.getSource().sendFeedback(Component.literal("§aCosmetic GitHub URL set to: §f" + url));
-                        return 1;
-                    })))
                 )
             );
 
